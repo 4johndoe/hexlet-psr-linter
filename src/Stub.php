@@ -6,6 +6,6 @@ class Stub
 {
     public function justTwo()
     {
-        return 2;
+        return true;
     }
 }
