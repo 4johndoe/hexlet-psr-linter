@@ -4,9 +4,10 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9f9564cfe54f355eb98d177169deffb2",
-    "content-hash": "09d0f0822f6e7dd4910078092899d363",
-    "packages": [
+    "hash": "d47231f591133009e5b4c424858c35b9",
+    "content-hash": "0e72d5e9f85fe3559d83622d4eb146ec",
+    "packages": [],
+    "packages-dev": [
         {
             "name": "codeclimate/php-test-reporter",
             "version": "v0.3.2",
@@ -2013,7 +2014,6 @@
             "time": "2015-08-24 13:29:44"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],

@@ -4,7 +4,7 @@ namespace Linter;
 
 class Stub
 {
-    public function justTwo()
+    public function justTrue()
     {
         return true;
     }

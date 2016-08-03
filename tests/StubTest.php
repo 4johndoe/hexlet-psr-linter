@@ -4,9 +4,9 @@ namespace Linter;
 
 class StubTest extends \PHPUnit_Framework_TestCase
 {
-    public function testJustTwo()
-    {   
+    public function testJustTrue()
+    {
         $stub = new Stub();
-        $this->assertTrue($stub->justTwo());
+        $this->assertTrue($stub->justTrue());
     }
 }
