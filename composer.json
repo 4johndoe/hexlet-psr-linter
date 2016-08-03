@@ -1,18 +1,25 @@
 {
-    "name": "bogdan/hexlet-psr-linter",
+    "name": "4johndoe/hexlet-psr-linter",
     "description": "Linter CLI utility for php source code",
+    "bin": ["bin/hexlet-psr-linter"],
     "type": "cli utility",
-    "require": {
-        "phpunit/phpunit": "^5.4",
-        "squizlabs/php_codesniffer": "^2.6",
-        "codeclimate/php-test-reporter": "^0.3.2",
-        "nikic/php-parser": "^2.1"
-    },
     "license": "GNU GPLv3",
     "authors": [
         {
             "name": "Bogdan Demchenko",
             "email": "bogdandemchenko@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "PsrLinter\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4",
+        "squizlabs/php_codesniffer": "^2.6",
+        "codeclimate/php-test-reporter": "^0.3.2",
+        "nikic/php-parser": "^2.1"
+    }
 }
