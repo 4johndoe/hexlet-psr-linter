@@ -1,7 +1,7 @@
 {
     "name": "4johndoe/hexlet-psr-linter",
     "description": "Linter CLI utility for php source code",
-    "bin": ["bin/hexlet-psr-linter"],
+    "bin": ["bin/psrlinter"],
     "type": "cli utility",
     "license": "GNU GPLv3",
     "authors": [
