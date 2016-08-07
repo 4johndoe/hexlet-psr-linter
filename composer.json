@@ -1,22 +1,24 @@
 {
-  "name": "hexlet/php-package",
-  "bin": ["bin/php-package"],
-  "type": "library",
-  "authors": [
-    {
-      "name": "Kirill Mokevnin",
-      "email": "mokevnin@gmail.com"
+    "name": "4johndoe/hexlet-psr-linter",
+    "description": "Linter CLI utility for php source code",
+    "bin": ["bin/hexlet-psr-linter"],
+    "type": "cli utility",
+    "license": "GNU GPLv3",
+    "authors": [
+        {
+            "name": "Bogdan Demchenko",
+            "email": "bogdandemchenko@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Linter\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "*",
+        "codeclimate/php-test-reporter": "dev-master"
     }
-  ],
-  "autoload": {
-    "psr-4": {
-      "PhpPackage\\": "src/"
-    }
-  },
-  "require": {},
-  "require-dev": {
-    "phpunit/phpunit": "*",
-    "squizlabs/php_codesniffer": "*",
-    "codeclimate/php-test-reporter": "dev-master"
-  }
 }
