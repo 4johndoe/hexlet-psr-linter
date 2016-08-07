@@ -8,5 +8,9 @@ install:
 
 script: make lint test
 
+addons:
+  code_climate:
+    repo_token: e19245d8f28a2dec47efbe52bae2785e5bbd168c74d6310e7268e796b07972dc
+
 after_script:
   - vendor/bin/test-reporter
